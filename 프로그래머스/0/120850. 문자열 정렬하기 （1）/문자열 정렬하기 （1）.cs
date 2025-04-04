@@ -34,3 +34,16 @@ public class Solution {
         return answer;
     }
 }
+// 다른사람 풀이 추가
+// LINQ 사용
+// using System;
+// using System.Linq;
+
+// public class Solution {
+//     public int[] solution(string my_string) {
+//             my_string = System.Text.RegularExpressions.Regex.Replace(my_string, "[^0-9]", "");
+//             int[] answer = my_string.Select(x => int.Parse(x.ToString())).ToArray();
+//             Array.Sort(answer);
+//             return answer;
+//     }
+// }
